@@ -4,7 +4,6 @@
 title: Aperture Template
 url: "https://juanquetzal.com"
 baseurl: "/blog"
-google_analytics_key: "UA-XXXXXXXX-X"
 google_analytics_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
