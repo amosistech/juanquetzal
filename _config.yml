@@ -2,8 +2,8 @@
 # Site
 
 title: Aperture Template
-url: "https://cosmic-hippopotamus.cloudvent.net"
-baseurl:
+url: "https://amosistech.github.io"
+baseurl: /juanquetzal
 google_analytics_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
