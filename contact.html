@@ -1,42 +1,42 @@
 ---
-title: Contact
+title: Contacto
 ---
-<p class="editable">I'm currently available for new projects. Get in touch, I'd love to work together.</p>
+<p class="editable">Contáctame, me encantaría saber tu opinión.</p>
 
-<form method="post" action="{{ site.baseurl }}/contact-success/">
+<form method="post" action="{{ site.baseurl }}/contact-success">
 		<input type="hidden" name="_to" value="{{ site.data.email }}" />
 		<input type="text" name="_gotcha" style="display: none;">
 
 	<div class="contain">
 		<div class="split">
-			<label for="first-name">First Name</label>
+			<label for="first-name">Nombre</label>
 			<input type="text" name="first-name" id="first-name" />
 		</div>
 		<div class="split">
-			<label for="surname">Surname</label>
+			<label for="surname">Apellido</label>
 			<input type="text" name="surname" id="surname" />
 		</div>
 	</div>
 
 	<div class="contain">
 		<div class="split">
-			<label for="email">Email Address</label>
+			<label for="email">Email</label>
 			<input type="email" name="email" id="email" required />
 		</div>
 
 		<div class="split">
-			<label for="subject">Subject</label>
+			<label for="subject">Asunto</label>
 			<select id="subject" name="subject">
-				<option value="enquiry">Enquiry</option>
-				<option value="suggestion">Suggestion</option>
-				<option value="press">Press</option>
-				<option value="other">Other</option>
+				<option value="enquiry">Consulta</option>
+				<option value="suggestion">Sugerencia</option>
+				<option value="press">Prensa</option>
+				<option value="other">Otro</option>
 			</select>
 		</div>
 	</div>
 
-	<label for="message">Message</label>
+	<label for="message">Mensaje</label>
 	<textarea name="message" id="message"></textarea>
 
-	<input type="submit" value="Send Message" />
+	<input type="submit" value="Enviar Mensaje" />
 </form>
